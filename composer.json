@@ -1,0 +1,13 @@
+{
+    "name": "kodus/image-hash",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kodus\\ImageHash\\": "src/"
+        }
+    },
+    "require-dev": {
+        "mindplay/testies": "^0.3.1",
+        "mindplay/benchpress": "^0.1.0"
+    }
+}
