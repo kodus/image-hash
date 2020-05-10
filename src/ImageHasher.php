@@ -136,7 +136,7 @@ class ImageHasher
         $distance = 0;
 
         for ($i = 0; $i < $aL; $i++) {
-            if ($hash_a{$i} !== $hash_b{$i}) {
+            if ($hash_a[$i] !== $hash_b[$i]) {
                 $distance++;
             }
         }
